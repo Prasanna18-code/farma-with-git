@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
             Navigator.push(context, MaterialPageRoute(builder: (context) {
           return CartPage();
         })),
-        child: const Icon(Icons.shopping_bag),
+        child: const Icon(Icons.shopping_bag_rounded),
         backgroundColor: Colors.white,
       ),
       backgroundColor: const Color.fromARGB(255, 220, 231, 241),
